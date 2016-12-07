@@ -28,7 +28,7 @@ bentools/qivivo-php - Unofficial PHP client for Qivivo Thermostat API
  
  
  // Change temperature
- $qivivo->thermostat()->setTemperature($thermostatId, 21.5, 45); // Sets the temperature to 21.5°C for 45 minutes
+ $qivivo->execute($qivivo->thermostat()->setTemperature($thermostatId, 21.5, 45)); // Sets the temperature to 21.5°C for 45 minutes
  ```
  
  Contribute
