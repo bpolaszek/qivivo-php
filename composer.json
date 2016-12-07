@@ -1,0 +1,22 @@
+{
+    "name": "bentools/qivivo-php",
+    "description": "Unofficial PHP client for Qivivo Thermostat API",
+    "keywords": ["qivivo", "api", "php", "thermostat"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beno!t POLASZEK",
+            "email": "bpolaszek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BenTools\\Qivivo\\": "src/BenTools/Qivivo/"
+        }
+    },
+    "require": {
+        "league/oauth2-client": "^1.4",
+        "bentools/oauth2-qivivo": "^0.1.0"
+    }
+}
