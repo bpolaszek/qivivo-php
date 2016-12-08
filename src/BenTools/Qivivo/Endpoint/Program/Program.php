@@ -10,7 +10,7 @@ class Program implements \JsonSerializable {
     const THURSDAY  = 'jeudi';
     const FRIDAY    = 'vendredi';
     const SATURDAY  = 'samedi';
-    const SUNDAY    = 'samedi';
+    const SUNDAY    = 'dimanche';
 
     /**
      * @var int
